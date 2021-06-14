@@ -3,39 +3,3 @@ body {
    background: #e5e5e5; 
    font-family: sans-serif;
 }
-/*top line*/
-.header {
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0;
-    top: 0;
-    border: 1px;
-    background:#e5e5e5;
-}
-/*log*/
-
-.logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196f3
-}
-/*menu-nav*/
-
-.menu-nav {
-    position: absolute;
-    width: 294px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    align-content: space-between;
-    
-}
