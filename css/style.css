@@ -78,3 +78,57 @@ line-height: auto;
    letter-spacing: 3%;
    font-size: 14px;
 }
+.h2-description {
+   color: #212121;
+   text-align: center;
+   line-height: auto;
+   letter-spacing: 3%;
+   font-weight: bold;
+   font-size: 36px;;
+}
+.worker-name {
+   color: #212121;
+   text-align: center;
+   line-height: auto;
+   letter-spacing: 3%;
+   font-weight: medium;
+   font-size: 16px;
+}
+.grey-prof {
+   color:#757575;
+   text-align: center;
+   line-height: auto;
+   letter-spacing: 3%;
+   font-size: 16px;
+}
+
+/*footer*/
+
+.address {
+   position: absolute;
+   width: 231px;
+   height: 21px;
+   left: 215px;
+   top: 2208 px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   color: #fff;
+   text-align: left;
+   line-height: 24px;
+   letter-spacing: 3%;
+   font-size: 14px;
+}
+.contact {
+   position: absolute;
+   width: 231px;
+   height: 21px;
+   left: 215 px;
+   top: 2238 px;
+   font-family: Roboto;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 3%;
+   color: rgba(255, 255, 255, 0.6);
+}
