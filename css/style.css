@@ -1,5 +1,80 @@
 
 body {
    background: #e5e5e5; 
+   color:black;
    font-family: Roboto;
+}
+.logo-blue {
+font-family: Raleway;
+color: #2196F3;
+font-weight: bold;
+font-size: 26px;
+letter-spacing: 3%;
+line-height: auto;
+list-style: none;
+}
+
+.logo {
+ font-family: Raleway;
+color: black;
+font-weight: bold;
+font-size: 26px;
+letter-spacing: 3%;
+line-height: auto;
+}
+
+/*стили для сылок*/
+
+* li, a  {
+   list-style: none;
+   text-decoration: none;
+}
+
+.link {
+   color: #212121;
+   letter-spacing: 2%;
+   line-height: auto;
+   font-weight: medium;
+   font-size: 14px;
+   list-style: none;
+}
+.link-active {
+   color: #2196F3;
+   letter-spacing: 2%;
+   font-weight: medium;
+   font-size: 14px;
+   list-style: none;
+}
+/*main section webstudio*/
+
+.hero {
+   color: #fff;
+   letter-spacing: 6%;
+   line-height: 60%;
+   font-weight: black;
+   font-size: 44px;
+}
+.button {
+   background: #2196F3;
+   color: #fff;
+   padding: 50px 200px;
+   text-align: center;
+   letter-spacing: 6%;
+   line-height: 30%;
+   font-weight: bold;
+   font-size: 16px;
+}
+.text-list {
+   color: #212121;
+   line-height: auto;
+   letter-spacing: 3%;
+   font-weight: bold;
+   font-size: 14px;
+}
+.grey-text {
+   color: #757575;
+   text-align: left;
+   line-height: 24%;
+   letter-spacing: 3%;
+   font-size: 14px;
 }
