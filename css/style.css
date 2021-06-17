@@ -29,14 +29,29 @@ line-height: auto;
    list-style: none;
    text-decoration: none;
 }
-
 .link {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0,02em;
    color: #212121;
+}
+.link:hover {
+   color: #2196F3;
+}
+.link-grey {
+   font-style: normal;
+   font-weight: 500;
+   color: #757575;
    letter-spacing: 2%;
-   line-height: auto;
+   line-height: 16px;
    font-weight: medium;
    font-size: 14px;
    list-style: none;
+}
+.link-grey:hover {
+   color: #2196F3;
 }
 .link-active {
    color: #2196F3;
@@ -48,6 +63,12 @@ line-height: auto;
 /*main section webstudio*/
 
 .hero {
+   background: #2F303A;
+   
+   left: 0px;
+   top: 80px;
+}
+.hero-text {
    color: #fff;
    letter-spacing: 6%;
    line-height: 60%;
@@ -57,12 +78,16 @@ line-height: auto;
 .button {
    background: #2196F3;
    color: #fff;
-   padding: 50px 200px;
+   padding: 0;
+   left: 700px;
    text-align: center;
    letter-spacing: 6%;
-   line-height: 30%;
+   line-height: 30px;
    font-weight: bold;
    font-size: 16px;
+}
+.button:hover {
+   color:#2196F3;
 }
 .text-list {
    color: #212121;
@@ -86,6 +111,11 @@ line-height: auto;
    font-weight: bold;
    font-size: 36px;;
 }
+/*our team*/
+
+.our-team {
+   background: #f5f4f5;
+}
 .worker-name {
    color: #212121;
    text-align: center;
@@ -103,13 +133,11 @@ line-height: auto;
 }
 
 /*footer*/
+.studio {
+   color: #fff;
+}
 
 .address {
-   position: absolute;
-   width: 231px;
-   height: 21px;
-   left: 215px;
-   top: 2208 px;
    font-family: Roboto;
    font-style: normal;
    font-weight: normal;
@@ -119,16 +147,63 @@ line-height: auto;
    letter-spacing: 3%;
    font-size: 14px;
 }
-.contact {
-   position: absolute;
-   width: 231px;
+.mail {
+    width: 231px;
    height: 21px;
-   left: 215 px;
-   top: 2238 px;
    font-family: Roboto;
    font-style: normal;
    font-size: 14px;
    line-height: 24px;
-   letter-spacing: 3%;
+   letter-spacing: 0.03em;
    color: rgba(255, 255, 255, 0.6);
+}
+.tele {
+     width: 231px;
+      height: 21px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24%;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+   }
+.address:hover, .mail:hover, .tele:hover {
+   color:#2196F3;
+}
+.footer {
+   background: #2F303a;
+   width: 1600px;
+   height: 252px;
+}
+
+/*Portfolio styles*/
+
+.btn-port {
+   background: #F5F4FA;
+   color: #212121;
+   width: 128px;
+   height: 38px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 162%;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+.btn-port:hover {
+   background: #2196F3;
+   color:#fff;
+}
+.btn-port-active {
+   background: #2196F3;
+   color: #fff;
+   text-align: center;
+   width: 73px;
+   height: 38px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 162%;
+   letter-spacing: 0.03em;
 }
