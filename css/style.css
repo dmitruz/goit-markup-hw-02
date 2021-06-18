@@ -7,20 +7,20 @@ body {
 .logo-blue {
 font-family: Raleway;
 color: #2196F3;
-font-weight: bold;
+font-weight: 900;
 font-size: 26px;
-letter-spacing: 3%;
-line-height: auto;
+letter-spacing: 0.03em;
+line-height: 1.2;
 list-style: none;
 }
 
 .logo {
  font-family: Raleway;
 color: black;
-font-weight: bold;
+font-weight: 900;
 font-size: 26px;
-letter-spacing: 3%;
-line-height: auto;
+letter-spacing: 0.03em;
+line-height: 1.2;
 }
 
 /*стили для сылок*/
@@ -30,6 +30,7 @@ line-height: auto;
    text-decoration: none;
 }
 .link {
+   font-family: Roboto;
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
@@ -38,9 +39,11 @@ line-height: auto;
    color: #212121;
 }
 .link-active {
+   font-family: Roboto;
+   font-style: normal;
    color: #2196F3;
-   letter-spacing: 2%;
-   font-weight: medium;
+   letter-spacing: 0.02em;
+   font-weight: 500;
    font-size: 14px;
    list-style: none;
 }
@@ -48,12 +51,13 @@ line-height: auto;
    color: #2196F3;
 }
 .link-grey {
+   font-family: Roboto;
    font-style: normal;
    font-weight: 500;
    color: #757575;
-   letter-spacing: 2%;
-   line-height: 16px;
-   font-weight: medium;
+   letter-spacing: 0.02em;
+   line-height: 1.2em;
+   font-weight: 500;
    font-size: 14px;
    list-style: none;
 }
@@ -85,9 +89,9 @@ line-height: auto;
    padding: 0;
    left: 700px;
    text-align: center;
-   letter-spacing: 6%;
-   line-height: 30px;
-   font-weight: bold;
+   letter-spacing: 0.06em;
+   line-height: 1.9;
+   font-weight: 900;
    font-size: 16px;
 }
 .button:hover {
@@ -95,25 +99,26 @@ line-height: auto;
 }
 .text-list {
    color: #212121;
-   line-height: auto;
-   letter-spacing: 3%;
-   font-weight: bold;
+   line-height: 1.1;
+   letter-spacing: 0.03em;
+   font-weight: 900;
    font-size: 14px;
+   text-transform: uppercase;
 }
 .grey-text {
    color: #757575;
-   text-align: left;
-   line-height: 24%;
-   letter-spacing: 3%;
+   line-height: 1.7;
+   font-weight: 400;
+   letter-spacing: 0.03em;
    font-size: 14px;
 }
 .h2-description {
    color: #212121;
    text-align: center;
-   line-height: auto;
-   letter-spacing: 3%;
-   font-weight: bold;
-   font-size: 36px;;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   font-weight: 900;
+   font-size: 36px;
 }
 /*our team*/
 
@@ -123,16 +128,17 @@ line-height: auto;
 .worker-name {
    color: #212121;
    text-align: center;
-   line-height: auto;
-   letter-spacing: 3%;
-   font-weight: medium;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   font-weight: 500;
    font-size: 16px;
 }
 .grey-prof {
    color:#757575;
+   font-weight: 400;
    text-align: center;
-   line-height: auto;
-   letter-spacing: 3%;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
    font-size: 16px;
 }
 
@@ -144,31 +150,27 @@ line-height: auto;
 .address {
    font-family: Roboto;
    font-style: normal;
-   font-weight: normal;
+   font-weight: 400;
    color: #fff;
-   text-align: left;
-   line-height: 24px;
-   letter-spacing: 3%;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
    font-size: 14px;
 }
 .mail {
-    width: 231px;
-   height: 21px;
    font-family: Roboto;
    font-style: normal;
+   font-weight: 400;
    font-size: 14px;
-   line-height: 24px;
+   line-height: 1.7;
    letter-spacing: 0.03em;
    color: rgba(255, 255, 255, 0.6);
 }
 .tele {
-     width: 231px;
-      height: 21px;
       font-family: Roboto;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 14px;
-      line-height: 24%;
+      line-height: 1.7;
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
    }
@@ -184,14 +186,13 @@ line-height: auto;
 /*Portfolio styles*/
 
 .btn-port {
+   font-family: Roboto;
+   font-style: normal;
    background: #F5F4FA;
    color: #212121;
-   width: 128px;
-   height: 38px;
-   font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 162%;
+   line-height: 1.6;
    text-align: center;
    letter-spacing: 0.03em;
 }
@@ -200,15 +201,15 @@ line-height: auto;
    color:#fff;
 }
 .btn-port-active {
+   font-family: Roboto;
+   font-style: normal;
    background: #2196F3;
    color: #fff;
    text-align: center;
-   width: 73px;
-   height: 38px;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 162%;
+   line-height: 1.6;
    letter-spacing: 0.03em;
 }
 .poster-name {
