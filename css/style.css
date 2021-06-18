@@ -37,6 +37,13 @@ line-height: auto;
    letter-spacing: 0,02em;
    color: #212121;
 }
+.link-active {
+   color: #2196F3;
+   letter-spacing: 2%;
+   font-weight: medium;
+   font-size: 14px;
+   list-style: none;
+}
 .link:hover {
    color: #2196F3;
 }
@@ -53,13 +60,7 @@ line-height: auto;
 .link-grey:hover {
    color: #2196F3;
 }
-.link-active {
-   color: #2196F3;
-   letter-spacing: 2%;
-   font-weight: medium;
-   font-size: 14px;
-   list-style: none;
-}
+
 /*main section webstudio*/
 
 .hero {
@@ -69,10 +70,13 @@ line-height: auto;
    top: 80px;
 }
 .hero-text {
+   font-weight: 900;
    color: #fff;
-   letter-spacing: 6%;
-   line-height: 60%;
-   font-weight: black;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   line-height: 1.4;
+   text-align: center;
+   font-weight: 900;
    font-size: 44px;
 }
 .button {
@@ -206,4 +210,20 @@ line-height: auto;
    font-size: 16px;
    line-height: 162%;
    letter-spacing: 0.03em;
+}
+.poster-name {
+   font-family: Roboto;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   color: #212121;
+}
+.poster-desc {
+   font-family: Roboto;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.9;
+   letter-spacing: 0.03em;
+   color: #757575;
 }
